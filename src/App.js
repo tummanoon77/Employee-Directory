@@ -2,16 +2,16 @@ import React from 'react';
 
 import './App.css';
 import Wrapper from "./components/Wrapper";
-import Main from "./components/Main";
+import Main from "./components/Main.js";
 import Header from "./components/Header";
-import Search from "./components/Search";
+import SearchBox from "./components/SearchBox";
 function App() {
   return (
     <div className="App">
       <Wrapper>
     <Header/>
-    <Search/>
-     <Main />
+    <SearchBox/>
+     <Main/>
       </Wrapper>
     </div>
   );

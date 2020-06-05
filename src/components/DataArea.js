@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-
+import DataTable from "./DataTable";
 import Nav from "./Navbar";
 import API from "../utils/API";
-import "./style.css";
+//import "./styles/DataArea.css";
 
 export default class DataArea extends Component {
   state = {
@@ -10,6 +10,7 @@ export default class DataArea extends Component {
     order: "descend",
     filteredUsers: [{}]
   }
+
   headings = [
     { name: "Image", width: "10%" },
     { name: "Name", width: "10%" },
