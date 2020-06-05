@@ -1,5 +1,6 @@
 import React from "react";
-import "./components/styles/DataBody.css";
+import "../styles/DataBody.css";
+
 
 function DataBody({ users }) {
   function formatDate(date) {
