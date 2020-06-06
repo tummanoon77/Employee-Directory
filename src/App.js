@@ -1,17 +1,17 @@
-import React from 'react';
-
-import './App.css';
+import React from "react";
+import Main from "./components/Main";
 import Wrapper from "./components/Wrapper";
-import Main from "./components/Main.js";
 import Header from "./components/Header";
-import SearchBox from "./components/SearchBox";
+import Footer from "./components/Footer"
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
       <Wrapper>
-    <Header/>
-    <SearchBox/>
-     <Main/>
+        <Header />
+        <Main />
+        <Footer/>
       </Wrapper>
     </div>
   );
